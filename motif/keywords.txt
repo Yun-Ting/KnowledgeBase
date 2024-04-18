@@ -1,0 +1,3 @@
+using MS.Internal.Motif.TestClasses
+using MS.Internal.Motif.Runtime.TestAttributes
+this.Log

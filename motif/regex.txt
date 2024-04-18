@@ -1,0 +1,2 @@
+defaults.md	MS.Internal.Motif.TestClasses;
+ReplaceLogWithAssert.md	this.Log

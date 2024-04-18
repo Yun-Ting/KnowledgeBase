@@ -1,0 +1,11 @@
+defaults.md	using Newtonsoft\.Json;
+system_runtime_serialization.md	\[DataContract|\[DataMember
+jsonproperty.md	\[JsonProperty
+jsonrequired.md	\[JsonProperty\(.*Required|Required\.Always|Required\.Default
+jsonignore.md	\[JsonIgnore
+null_default_value_handling.md	NullValueHandling\.Ignore|DefaultValueHandling\.Ignore|DefaultValueHandling\.Populate|DefaultValueHandling\.IgnoreAndPopulate
+parsing_without_type.md	JObject\.Parse|JArray\.Parse|JToken\.Parse|Newtonsoft\.Json\.Linq
+jil_to_stj.md	using Jil;
+anonymous_types.md	JsonConvert\.DeserializeAnonymous
+serializing_enums.md	StringEnumConverter
+jsonobject_attribute.md	\[JsonObject
