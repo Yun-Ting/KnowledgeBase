@@ -1,1 +1,1 @@
-".Log(?:Critical|Debug|Error|Information|Trace|Warning)\\(.*(?:\\$|string.Format\\()\".+\".*\\)"
+logger-message-generator.md using Microsoft\.Extensions\.Logging;
