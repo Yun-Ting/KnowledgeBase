@@ -1,1 +1,1 @@
-""
+".Log(?:Critical|Debug|Error|Information|Trace|Warning)\\(.*(?:\\$|string.Format\\()\".+\".*\\)"
