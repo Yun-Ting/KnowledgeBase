@@ -1,2 +1,1 @@
-defaults.md	using System;
-
+defaults.md	.Log(?:Critical|Debug|Error|Information|Trace|Warning)\\(.*(?:\\$|string.Format\\()\".+\".*\\)
