@@ -1,1 +1,1 @@
-logger-message-generator.md using Microsoft\.Extensions\.Logging;
+logger-message-generator.md  using System;

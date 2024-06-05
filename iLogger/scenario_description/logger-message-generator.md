@@ -1,7 +1,6 @@
 ---
 title: Compile-time logging source generation
 description: Learn how to use the LoggerMessageAttribute and compile-time source generation for logging in .NET.
-ms.date: 10/11/2023
 ---
 
 # Compile-time logging source generation
@@ -362,16 +361,3 @@ With the advent of C# source generators, writing highly performant logging APIs 
 - Allows the passing of all original data as-is, without any complication around how it's stored before something is done with it (other than creating a `string`).
 - Provides logging-specific diagnostics, and emits warnings for duplicate event IDs.
 
-Additionally, there are benefits over manually using <xref:Microsoft.Extensions.Logging.LoggerMessage.Define%2A?displayProperty=nameWithType>:
-
-- Shorter and simpler syntax: Declarative attribute usage rather than coding boilerplate.
-- Guided developer experience: The generator gives warnings to help developers do the right thing.
-- Support for an arbitrary number of logging parameters. `LoggerMessage.Define` supports a maximum of six.
-- Support for dynamic log level. This is not possible with `LoggerMessage.Define` alone.
-
-## See also
-
-- [Logging in .NET](logging.md)
-- [High-performance logging in .NET](high-performance-logging.md)
-- [Console log formatting](console-log-formatter.md)
-- [NuGet: Microsoft.Extensions.Logging.Abstractions](https://www.nuget.org/packages/microsoft.extensions.logging.abstractions)
