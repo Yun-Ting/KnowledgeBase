@@ -8,3 +8,13 @@
     - Fifth, for each interpolated parameter in the original `ILogger` API call, matching the original call for proper structured logging.
         
 3. Once all logger calls have been refactored, the helper class will contain several such static logger methods, each attributed with LoggerMessageAttribute, corresponding to the log messages that were not using compile-time source generation. Replace the original logger call with an invocation of the new static logger extension method, passing in the necessary arguments.
+
+
+
+
+template
+
+1. no parameters
+2. with parameters
+
+4. If there are no parameters, incorporate it into one single 
