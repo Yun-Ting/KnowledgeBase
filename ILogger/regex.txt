@@ -1,1 +1,1 @@
-defaults.md	\.LogInformation\(.*\$\".*\"
+defaults.md	using Microsoft\.Extensions\.Logging;
