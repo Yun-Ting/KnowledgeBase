@@ -1,1 +1,1 @@
-defaults.md	using
+defaults.md	\.Log(Critical|Debug|Error|Information|Trace|Warning)\(.*(\$|string\.Format\()".+".*\)
