@@ -109,8 +109,6 @@ The code-generation model depends on code being compiled with a modern C# compil
 </PropertyGroup>
 ```
 
-For more information, see [C# language versioning](../../csharp/language-reference/configure-language-version.md).
-
 ## Log method anatomy
 
 The <xref:Microsoft.Extensions.Logging.ILogger.Log%2A?displayProperty=nameWithType> signature accepts the <xref:Microsoft.Extensions.Logging.LogLevel> and optionally an <xref:System.Exception>, as shown below.
@@ -362,10 +360,3 @@ Additionally, there are benefits over manually using <xref:Microsoft.Extensions.
 - Guided developer experience: The generator gives warnings to help developers do the right thing.
 - Support for an arbitrary number of logging parameters. `LoggerMessage.Define` supports a maximum of six.
 - Support for dynamic log level. This is not possible with `LoggerMessage.Define` alone.
-
-## See also
-
-- [Logging in .NET](logging.md)
-- [High-performance logging in .NET](high-performance-logging.md)
-- [Console log formatting](console-log-formatter.md)
-- [NuGet: Microsoft.Extensions.Logging.Abstractions](https://www.nuget.org/packages/microsoft.extensions.logging.abstractions)
