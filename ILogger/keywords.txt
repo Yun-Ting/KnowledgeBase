@@ -1,2 +1,8 @@
 using Microsoft.Extensions.Logging
-.Log
+.LogCritical
+.LogDebug
+.LogError
+.LogInformation
+.LogTrace
+.LogWarning
+$

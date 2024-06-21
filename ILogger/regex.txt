@@ -1,1 +1,6 @@
-defaults.md	.LogInformation\(.*\$
+defaults.md	\.LogCritical\(.*\$
+defaults.md	\.LogDebug\(.*\$
+defaults.md	\.LogError\(.*\$
+defaults.md	\.LogInformation\(.*\$
+defaults.md	\.LogTrace\(.*\$
+defaults.md	\.LogWarning\(.*\$
