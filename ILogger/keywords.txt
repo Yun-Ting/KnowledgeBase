@@ -1,8 +1,7 @@
 using Microsoft.Extensions.Logging
-.LogCritical
-.LogDebug
-.LogError
-.LogInformation
-.LogTrace
-.LogWarning
-$
+.LogCritical($"
+.LogDebug($"
+.LogError($"
+.LogInformation($"
+.LogTrace($"
+.LogWarning($"

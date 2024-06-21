@@ -1,4 +1,4 @@
-1. Identify all the `ILogger` API logger calls that are NOT using compile-time-source generation from the input.
+1. Identify all the `ILogger` API logger calls that are NOT using Compile-time logging source generation to perfom logging.
 
 2. For each identified call, do the following:
     - First, define a static partial class which has the same name as the class name with the word "LoggingExtensions" as its suffix.
