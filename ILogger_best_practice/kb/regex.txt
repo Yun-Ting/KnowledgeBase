@@ -1,0 +1,4 @@
+defaults.md	using Microsoft\.Extensions\.Logging;
+LogInformation.md	\.LogInformation\(.*\$
+LogCritical.md	\.LogCritical\(.*\$
+LogError.md	\.LogError\(.*\$

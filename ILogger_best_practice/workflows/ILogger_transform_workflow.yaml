@@ -1,0 +1,29 @@
+# Workflow for ILogger best practice using iterative planning and a KB.
+BandishWorkflow:
+  name: "iLogger"
+  description: "Migrate from string interpolation to compile-time source generation."
+  version: "1.1.0"
+params:
+  code_language: "csharp"
+stages:
+  - stage: "stage_1"
+    planning:
+      planner: "iterative"
+      working_dir: "." # The source code directory.
+      code_slice_granularity: ["file", "class", "function"]
+      progressive_code_slicing: True
+      code_slicing_budget: 1500
+      sketch_file: True
+      # filtering:
+      #   - filter: "keyword"
+      #     keywords: ["SerializeObject"]
+    steps:
+      # - action: detect .NET runtime version to ensure that people are using the lastest ILogger
+      # - action: detect string interpolation
+      # - action: use regex to check whether all detected instances are indeed string interpolation -> success
+      # - action:
+      - action: transform_code
+        name: "transform_code_1"
+        description: "Migrate files from string interpolation to compile-time source generation."
+        inputs:
+          max_prompt_retries: 3

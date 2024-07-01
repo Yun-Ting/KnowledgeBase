@@ -1,0 +1,4 @@
+using Microsoft.Extensions.Logging
+.LogCritical
+.LogError
+.LogInformation
